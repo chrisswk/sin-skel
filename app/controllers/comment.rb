@@ -1,5 +1,5 @@
 #index
-get 'comment/all' do
+get '/comment/all' do
 
 end
 
@@ -8,23 +8,24 @@ get '/comment/new' do
 
 end
 
+post '/comment' do
 
-#existing comments
+end
+
+
+#Existing comment
 get '/comment/:id' do |id|
 
-
 end
 
-get 'comment/:id/edit' do |id|
+get '/comment:id/edit' do |id|
 
 end
-
 
 put '/comment/:id' do |id|
 
 end
 
-
-delete '/comment:id' do |id|
+delete '/comment/:id' do |id|
 
 end
